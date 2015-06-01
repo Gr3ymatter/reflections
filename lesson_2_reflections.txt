@@ -5,3 +5,7 @@ A git directory is initialized. I need to do this if i am to store any commits i
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 To evaluate files to be commited.. and to make it easy for a user to change thier mind about commits before a final commit.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+If i change one logical change which spans multiple files, i can add them to the staging area. I can use diff to compare and then finally commit the files
