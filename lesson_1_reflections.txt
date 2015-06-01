@@ -1,0 +1,34 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+I could easily see new lines and removed lines.
+Helpful when i want to find a typo, they are shown next to eachother
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+If i mess up, i dont have to spend hours searching for a change.
+I can go back to the previous working version in seconds. 
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+Pros: 
+Complete control of when the commits happen. Not too small to clutter my log
+Cons:
+Can be too big or too small.
+Can forget to commit.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Large programs can have changes that span multiple files. 
+If only one file was tracked, we would miss changes in other files. Errors would be hard to catch.
+
+How can you use the commands git log and git diff to view the history of files?
+
+Git Log: Shows all the different commits. Helps narrow down which snapshot to view
+Git Diff: The difference between two different snapshots.
+ 
+How might using version control make you more confident to make changes that could break something?
+
+I can test soemthing out without having to worry about commenting things out
+If things dont workout then i can always go back to my previous version.
+I used to do that with the arduino version...should use version control more often.
+
